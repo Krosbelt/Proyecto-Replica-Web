@@ -1,0 +1,88 @@
+
+a {
+    font-family: 'Mulish', sans-serif;
+    text-decoration: none;
+    color: var(--header-texta);
+}
+
+.topheader {
+    box-shadow: 0 4px 5px var(--navbar-shallow-color);
+    position: fixed;
+    background-color: var(--theme-color);
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.topnav {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    max-width: 100%;
+    
+}
+
+/* Logo */
+.logo {
+    color: var(--text1-header);
+    font-weight: 900;
+    font-size: 22px;
+    text-align: center;
+   
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+    margin-right: 12%;
+}
+
+.menu li {
+    padding: 0px 18px;
+}
+
+.menu  li {
+    color: var(--header-texta);
+    font-weight: 600;
+    font-size: 17px;
+    position: relative;
+} 
+
+
+.menu  li.active {
+    
+    transition: 0.3 ease background-color;
+}
+
+.menu  li.active a {
+    color: var(--buttom) ;
+}
+
+
+
+/* Buttom feedback */
+ .b-feedback {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: var(--buttom);
+    border: none;
+    border-radius: 50px;
+    color: var(--theme-color);
+    padding: 10px 20px;
+    margin-left: 40px;
+   
+} 
+
+.b-feedback a{
+    color: var(--theme-color);
+}
+
+.b-feedback a .icon1 {
+    color: var(--theme-color);
+}
+
+
