@@ -2,6 +2,7 @@
 Partiendo de una herramienta de maquetación designada, reproducir una maquetación hecha con la misma herramienta. Describir los elementos de la carta gráfica utilizada, así como los elementos de seguridad previstos. Formalizar la secuencia de interfaces tomando como base el modelo proporcionado.
 
 Requerimientos técnicos ⚙️
+
 Será un sprint de 3 días hábiles.
 La página DEBE cumplir con la paleta de colores.
 La página DEBE cumplir con la fuente .
